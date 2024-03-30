@@ -1150,7 +1150,7 @@ textarea:focus-within {
   border-width: 3px;
 }
 
-button {
+.mj {
   background-color: #5bd183;
   border-radius: 20px;
   border-color: black;
@@ -1161,7 +1161,7 @@ button {
   margin: auto;
 }
 
-button:hover {
+.mj:hover {
   opacity: 80%;
   cursor: pointer;
 }
