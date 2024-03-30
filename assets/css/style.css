@@ -1113,7 +1113,6 @@ section .container {
 }
 
 .contact-input {
-  background-color: #09203A;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
@@ -1128,7 +1127,6 @@ section .container {
 }
 
 .contact-textarea {
-  background-color: #09203A;
   width: 70%;
   margin-left: 12%;
   font-size: 20px;
