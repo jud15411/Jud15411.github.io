@@ -275,9 +275,9 @@
         </div>
         <div>
           <form onsubmit="sendEmail(); reset(); return false;">
-          <input type="text" name="first" placeholder="First Name" autocomplete="off" required class="contact-input">
-          <input type="text" name="last" placeholder="Last Name" autocomplete="off" required class="contact-input">
-          <input type="email" name="email" placeholder="Email Address" autocomplete="off" required class="contact-input">
+          <input type="text" id="first" placeholder="First Name" required class="contact-first">
+          <input type="text" id="last" placeholder="Last Name" required class="contact-input">
+          <input type="email" id="email" placeholder="Email Address" required class="contact-input">
           <textarea rows="5" cols="60" name="message" placeholder="Enter Text" required class="contact-textarea"></textarea>
           <button type="submit" class="contact-button">Send Message</button>
           </form>

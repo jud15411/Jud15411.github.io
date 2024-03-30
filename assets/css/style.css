@@ -1123,6 +1123,18 @@ section .container {
   margin-bottom: 20px;
 }
 
+.contact-first {
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
 .contact-textarea {
   background-color: white;
   width: 70%;
