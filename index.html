@@ -273,15 +273,34 @@
             <!-- <a href="mailto:aras.gungore@boun.edu.tr" target="_blank"> <p><i class="icofont-rounded-right"></i> aras.gungore@boun.edu.tr</p> </a> -->
           </div>
         </div>
-        <form action="mailto:judsonwells100@gmail.com" method="GET">
         <div>
+          <form onsubmit="sendEmail(); reset(); return false;">
           <input type="text" name="first" placeholder="First Name" autocomplete="off" required class="contact-input">
           <input type="text" name="last" placeholder="Last Name" autocomplete="off" required class="contact-input">
           <input type="email" name="email" placeholder="Email Address" autocomplete="off" required class="contact-input">
           <textarea rows="5" cols="60" name="message" placeholder="Enter Text" required class="contact-textarea"></textarea>
           <button type="submit" class="contact-button">Send Message</button>
+          </form>
         </div>
-        </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>"></script>
+        <script>
+          function sendEmail(){
+            Email.send({
+              Host : "smtp.gmail.com",
+              Username : "judsonwells100@gmail.com",
+              Password : "Judson07190713",
+              To : 'judsonwells100@gmail.com',
+              From : document.getElementById("email").value,
+              Subject : "New Contact Form Enquiry-Portfolio",
+              Body : "First Name: " + document.getElementById("first").value
+                  + "<br> Last Name: " + document.getElementById("last").value
+                  + "<br> Email: " + document.getElementById("email").value
+                  + "<br> Message: " + document.getElementById("message").value
+            }).then(
+              message => alert("Message Sent Succesfully")
+            );
+          }
+        </script>
       </div>
     </div>
   </section>
