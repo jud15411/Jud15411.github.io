@@ -1102,9 +1102,9 @@ section .container {
     transform: rotate(360deg);
   }
 }
-/*
 
-h1 {
+
+.contact-h1 {
   color: white;
   padding-top: 10px;
   text-align: center;
@@ -1112,7 +1112,7 @@ h1 {
   font-family: sans-serif;
 }
 
-input {
+.contact-input {
   background-color: white;
   width: 70%;
   margin-left: 12%;
@@ -1123,7 +1123,7 @@ input {
   margin-bottom: 20px;
 }
 
-textarea {
+.contact-textarea {
   background-color: white;
   width: 70%;
   margin-left: 12%;
@@ -1135,19 +1135,19 @@ textarea {
   font-family: sans-serif;
 }
 
-input:focus-within {
+.contact-input:focus-within {
   outline: none;
   border-color: #5bd183;
   border-width: 3px;
 }
 
-textarea:focus-within {
+.contact-textarea:focus-within {
   outline: none;
   border-color: #5bd183;
   border-width: 3px;
 }
 
-.mj {
+.contact-button {
   background-color: #5bd183;
   border-radius: 20px;
   border-color: black;
@@ -1158,11 +1158,11 @@ textarea:focus-within {
   margin: auto;
 }
 
-.mj:hover {
+.contact-button:hover {
   opacity: 80%;
   cursor: pointer;
 }
-*/
+
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
