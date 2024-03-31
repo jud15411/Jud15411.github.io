@@ -1103,7 +1103,7 @@ section .container {
   }
 }
 
-form {
+.contact-form-container {
   background:#09203a;
   display:flex;
   flex-direction: column;
