@@ -1123,6 +1123,7 @@ section .container {
 
 .space-top {
   margin-top: 20px;
+  background-color: #09203a;
 }
 
 .contact-textarea {
@@ -1148,7 +1149,7 @@ section .container {
 }
 
 .contact-button {
-  background-color: #5bd183;
+  background-color: #12d640;
   border-radius: 20px;
   border-color: black;
   font-size: 22px;
