@@ -993,16 +993,35 @@ section .container {
   }
 }
 
+.contact-container {
+  width: 100%;
+  height: 71vh;
+  background:#010e1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  background: #09203a;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
 .contact-h3 {
-  color: #12d640;
-  margin-bottom: 20px;
+  color: limegreen;
   font-weight: 800;
-  margin-left: 320px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .contact-input, .contact-textarea {
   border: 0;
-  margin: 10px 30px;
+  margin: 10px 0; 
   padding: 20px;
   outline: none;
   background: lightgrey;
@@ -1011,21 +1030,20 @@ section .container {
 }
 
 .contact-button {
-  background-color: #12d640;
-  margin: 10px 325px;
-  padding: 17px;
-  border-radius: 35px;
-  outline: none;
-  border-color: black;
-  border: 0;
+  padding: 15px;
+  background: limegreen;
   color: white;
-  font-weight: 500;
-  font-size: 23px;
+  font-size: 18px;
+  border: 0;
+  outline: none;
   cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
 }
 
 .contact-button:hover {
-  background-color: #11b838;
+  background: rgb(42, 168, 42);
 }
 
 
