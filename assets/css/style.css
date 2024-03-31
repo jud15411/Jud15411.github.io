@@ -993,7 +993,7 @@ section .container {
   }
 }
 
-form {
+.contact-container {
   background:#09203a;
   display:flex;
   flex-direction: column;
