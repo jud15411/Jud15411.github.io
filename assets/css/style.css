@@ -993,15 +993,6 @@ section .container {
   }
 }
 
-.contact-container {
-  background:#09203a;
-  display:flex;
-  flex-direction: column;
-  padding: 2vw 4vw;
-  width: 90%;
-  max-width: 600px;
-  border-radius: 10px;
-}
 
 
 /*
