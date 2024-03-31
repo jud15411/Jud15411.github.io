@@ -1103,7 +1103,18 @@ section .container {
   }
 }
 
+form {
+  background:#09203a;
+  display:flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
 
+
+/*
 .contact-h1 {
   color: white;
   padding-top: 10px;
@@ -1163,7 +1174,7 @@ section .container {
   opacity: 80%;
   cursor: pointer;
 }
-
+*/
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
