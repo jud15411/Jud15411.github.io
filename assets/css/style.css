@@ -994,12 +994,12 @@ section .container {
 }
 
 .contact-container {
-  width: 100%;
-  height: 87vh;
-  background:#010e1b;
-  display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 73vh; 
+  background:#010e1b; 
+  display: flex;
 }
 
 .contact-form {
@@ -1013,7 +1013,7 @@ section .container {
 }
 
 .contact-h3 {
-  color: limegreen;
+  color: #12d640;
   font-weight: 800;
   margin-bottom: 20px;
   text-align: center;
@@ -1031,7 +1031,7 @@ section .container {
 
 .contact-button {
   padding: 15px;
-  background: limegreen;
+  background: #12d640;
   color: white;
   font-size: 18px;
   border: 0;
@@ -1043,9 +1043,16 @@ section .container {
 }
 
 .contact-button:hover {
-  background: rgb(42, 168, 42);
+  background: #11c03a;
 }
-
+/*
+@media only screen and (max-width:400px) {
+  .contact-container {
+    width: 90%;
+    height: 90%;
+  }
+}
+*/
 
 /*--------------------------------------------------------------
 # Credits
