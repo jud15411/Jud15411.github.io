@@ -919,7 +919,7 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  border-radius: 20px;
+  border-radius: 25px;
   color: #444444;
   padding: 20px;
   width: 100%;
