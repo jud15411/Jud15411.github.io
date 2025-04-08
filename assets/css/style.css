@@ -1131,15 +1131,18 @@ form {
   flex-direction: column;
   padding: 2vw 4vw;
   width: 90%;
-  max-width: 600px;
   border-radius: 10px;
 }
 
 form h3 {
   color: limegreen;
   font-weight: 800;
-  margin-bottom: 20px;
-  margin-left: 150px;
+}
+
+.contact-info-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form input, form textarea {
