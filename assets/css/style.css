@@ -995,55 +995,6 @@ section .container {
   }
 }
 
-.contact-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  margin-top: 30px;
-  width: 550px;
-}
-
-.contact-form {
-  background-color: #09203a;
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  width: 100%;
-  max-width: 600px;
-  border-radius: 20px;
-}
-
-.contact-h3 {
-  color: #12d640;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.contact-input,
-.contact-textarea {
-  border: 0;
-  margin: 10px 0;
-  padding: 20px;
-  outline: none;
-  background-color: lightgrey;
-  font-size: 16px;
-  border-radius: 10px;
-}
-
-.contact-button {
-  padding: 15px;
-  background-color: #12d640;
-  color: white;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 150px;
-  margin: 20px auto 20px;
-  border-radius: 30px;
-}
 
 /*--------------------------------------------------------------
 # Credits
@@ -1141,4 +1092,86 @@ section .container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.resume-download-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-button {
+  border: none;
+  width: 150px;
+  height: auto;
+  background-color: #12d640;
+  border-radius: 10px;
+}
+
+.download-button {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  background:#031933;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #09203a;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: limegreen;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+form input, form textarea {
+  border: 0;
+  margin: 10px 0; 
+  padding: 20px;
+  outline: none;
+  background: lightgrey;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: limegreen;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+form button:hover {
+  background: rgb(42, 168, 42);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.form-inputs {
+  border-radius: 10px;
 }

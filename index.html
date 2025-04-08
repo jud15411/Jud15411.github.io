@@ -102,7 +102,7 @@
           <li><a href="#projects"> <span>Projects</span></a></li>
           <li><a href="#skills"> <span>Skills</span></a></li>
           <li><a href="#resume"> <span>Resume</span></a></li>
-          <!--<li><a href="#contact"> <span>Contact</span></a></li> -->
+          <li><a href="#contact"> <span>Contact</span></a></li> 
         </ul>
       </nav>
       <div class="social-links">
@@ -293,20 +293,25 @@
 
   <section id="resume" class="resume">
     
-      <div class="section-title" id="resume-title">
-        <h2>Resume</h2>
+    <div class="section-title" id="resume-title">
+      <h2>Resume</h2>
+    </div>
+
+    <div class="resume-download-button">
+      <div class="download-button">
+        <a href="assets/Files/Resume-Downloadable.pdf" download="Resume"><button class="resume-button"><b>Download Resume</b></button></a>
       </div>
+
       <div class="row resume-img-1" >
         <img src="assets/img/Resume-1.png" class="img-resume">
       </div>
-    
-    <a href="assets/img/Resume-1.png" download><button>Download Resume</button></a>
+    </div>
   </section>
 
   <!-- ======= End Resume Section ======== -->
 
 
-  <!-- ======= Start Contact Section ======= 
+  <!-- ======= Start Contact Section ======= -->
   
   <section id="contact" class="contact">
     <div class="container">
@@ -324,6 +329,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
@@ -331,21 +337,24 @@
             <a href="mailto:judsonwells100@gmail.com" target="_blank"> <p><i class="icofont-rounded-right"></i> judsonwells100@gmail.com</p> </a>
           </div>
         </div>
-        <div class="contact-container">
-          <form onsubmit="sendEmail(); reset(); return false;" class="contact-form">
-              <h3 class="contact-h3">Get In Touch</h3>
-              <input type="text" id="first-name" placeholder="First Name" required class="contact-input">
-              <input type="text" id="last-name" placeholder="Last Name" required class="contact-input">
-              <input type="email" id="email" placeholder="Email Address" required class="contact-input">
-              <textarea id="message" rows="4" placeholder="How can I help you?" class="contact-textarea"></textarea>
-              <button type="submit" class="contact-button">Send</button>
+      </div>
+
+
+        <div class="form-container">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <h3>Get In Touch</h3>
+
+            <input type="hidden" name="access_key" value="1d892f93-2f6c-450a-9865-55c862941a1c">
+            <input type="name" name="name" placeholder="Your Name" class="form-inputs" required>
+            <input type="email" name="email" placeholder="Email Address" class="form-inputs" required>
+            <textarea  name="message" placeholder="How can I help you?" class="form-inputs" required></textarea>
+            <button type="submit">Send</button>
           </form>
         </div>
-      </div>
     </div>
   </section>
   
-   ======= End Contact Section =======--> 
+   <!--======= End Contact Section =======--> 
 
 
 
