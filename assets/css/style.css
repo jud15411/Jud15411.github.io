@@ -1091,20 +1091,18 @@ section .container {
   width: 100%;
 }
 
-.project-2 {
+.project-3 {
   background-color: #09203a;
   grid-row: 1 / 2;
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
   padding: 10px;
   border-radius: 20px;
   height: 100%;
   width: 100%;
 }
 
-.project-3 {
+.project-4 {
   background-color: #09203a;
-  grid-row: 1 / 2;
-  grid-column: 3 / 4;
   padding: 10px;
   border-radius: 20px;
   height: 100%;
@@ -1129,3 +1127,5 @@ section .container {
 .project-text {
   text-align: center;
 }
+
+
