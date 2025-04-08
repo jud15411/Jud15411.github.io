@@ -1081,6 +1081,8 @@ section .container {
 
 .img-resume {
   padding-bottom: 20px;
+  width: 100%;
+  height: auto;
 }
 
 #resume-title {
