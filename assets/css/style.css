@@ -1194,3 +1194,8 @@ form button:hover {
 .form-inputs {
   border-radius: 10px;
 }
+
+.project-img-4 {
+  width: 25%;
+  height: auto;
+}
